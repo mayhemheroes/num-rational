@@ -1,0 +1,6 @@
+project: num-rational
+target: ratio_reduce
+duration: 300
+
+cmds:
+  - cmd: /ratio_reduce

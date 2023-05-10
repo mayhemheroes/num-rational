@@ -23,3 +23,15 @@ name = "ratio"
 path = "fuzz_targets/ratio.rs"
 test = false
 doc = false
+
+[[bin]]
+name = "ratio_reduce"
+path = "fuzz_targets/ratio_reduce.rs"
+test = false
+doc = false
+
+[[bin]]
+name = "ratio_round"
+path = "fuzz_targets/ratio_round.rs"
+test = false
+doc = false
