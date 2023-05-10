@@ -58,6 +58,7 @@ jobs:
         - fuzz/mayhemfiles/Mayhemfile_ratio_reduce
         - fuzz/mayhemfiles/Mayhemfile_ratio_round
         - fuzz/mayhemfiles/Mayhemfile_add
+        - fuzz/mayhemfiles/Mayhemfile_multiply
     steps:
     - uses: actions/checkout@v3
     - name: Start analysis for ${{ matrix.mayhemfile }}
