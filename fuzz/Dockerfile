@@ -23,3 +23,5 @@ COPY --from=builder /num-rational/fuzz/target/x86_64-unknown-linux-gnu/release/r
 COPY --from=builder /num-rational/fuzz/target/x86_64-unknown-linux-gnu/release/ratio_reduce /
 
 COPY --from=builder /num-rational/fuzz/target/x86_64-unknown-linux-gnu/release/ratio_round /
+
+COPY --from=builder /num-rational/fuzz/target/x86_64-unknown-linux-gnu/release/add /

@@ -35,3 +35,9 @@ name = "ratio_round"
 path = "fuzz_targets/ratio_round.rs"
 test = false
 doc = false
+
+[[bin]]
+name = "add"
+path = "fuzz_targets/add.rs"
+test = false
+doc = false
