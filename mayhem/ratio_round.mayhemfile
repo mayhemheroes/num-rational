@@ -1,0 +1,6 @@
+project: num-rational
+target: ratio_round
+duration: 300
+
+cmds:
+  - cmd: /ratio_round
