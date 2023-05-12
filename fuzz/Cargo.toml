@@ -1,0 +1,49 @@
+[package]
+name = "num-rational-fuzz"
+version = "0.1.0"
+authors = ["Automatically generated"]
+publish = false
+edition = "2018"
+
+[package.metadata]
+cargo-fuzz = true
+
+[dependencies]
+libfuzzer-sys = "0.4"
+
+[dependencies.num-rational]
+path = ".."
+
+# Prevent this from interfering with workspaces
+[workspace]
+members = ["."]
+
+[[bin]]
+name = "ratio"
+path = "fuzz_targets/ratio.rs"
+test = false
+doc = false
+
+[[bin]]
+name = "ratio_reduce"
+path = "fuzz_targets/ratio_reduce.rs"
+test = false
+doc = false
+
+[[bin]]
+name = "ratio_round"
+path = "fuzz_targets/ratio_round.rs"
+test = false
+doc = false
+
+[[bin]]
+name = "add"
+path = "fuzz_targets/add.rs"
+test = false
+doc = false
+
+[[bin]]
+name = "multiply"
+path = "fuzz_targets/multiply.rs"
+test = false
+doc = false

@@ -1,0 +1,6 @@
+project: num-rational
+target: ratio
+duration: 300
+
+cmds:
+  - cmd: /ratio

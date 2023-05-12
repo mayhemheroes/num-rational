@@ -1,0 +1,6 @@
+project: num-rational
+target: add
+duration: 300
+
+cmds:
+  - cmd: /add
